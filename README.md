@@ -13,20 +13,20 @@ A cada arquivo enviado, é feito uma chamada para a função Remove-Item para de
 Por fim, o script desconecta-se do servidor FTP usando o comando $ftp.Abort().
 Esse script é útil para automatizar o processo de upload de arquivos para um servidor FTP, especialmente se precisar ser feito com frequência ou em grandes volumes de arquivos.
 
-Defina as variáveis de conexão FTP
+Defina as variáveis de conexão FTP no arquivo script.ps1
 ```powershell
 $ftpServer = "ftp://172.16.0.194"
 $ftpUsername = "USUARIO FTP"
 $ftpPassword = "SENHA DO FTP"
 ```
 
-Defina a pasta local e remota
+Defina a pasta local e remota no arquivo script.ps1
 ```powershell
 $localFolder = ".\drop"
 $remoteFolder = "/Alfresco/Sites/financeiro/documentLibrary/"
 ```
 
-Execute o deploy
+Execute o arquvivo de deploy
 ```powershell
 deploy.bat
 ```
