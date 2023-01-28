@@ -3,7 +3,7 @@
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/eliezerazevedo)](https://github.com/eliezerazevedo)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/eliezerazevedo/)](https://www.linkedin.com/in/eliezerazevedo/)
 
-### Português 
+### readme 
 Este script é escrito em PowerShell e é usado para fazer upload de arquivos de uma pasta local para uma pasta remota em um servidor FTP. O script começa importando o módulo FTP, que fornece as funções necessárias para se conectar e interagir com um servidor FTP.
 Em seguida, as variáveis de conexão FTP são definidas, incluindo o endereço do servidor FTP, o nome de usuário e a senha para acessar o servidor.
 Em seguida, é definida a pasta local e remota.
