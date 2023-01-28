@@ -2,12 +2,12 @@
 Import-Module FTP
 
 # Defina as variáveis de conexão FTP
-$ftpServer = "ftp://172.16.0.194"
-$ftpUsername = "USUARIO FTP"
-$ftpPassword = "SENHA DO FTP"
+$ftpServer = "ftp://ip do servidor FTP"
+$ftpUsername = "usuario do servidor FTP"
+$ftpPassword = "senha do servidor FTP"
 
 # Defina a pasta local e remota
-$localFolder = ".\ScanDrop"
+$localFolder = ".\drop"
 $remoteFolder = "/Alfresco/Sites/financeiro/documentLibrary/"
 
 # Conecte-se ao servidor FTP
